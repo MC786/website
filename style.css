@@ -4,6 +4,10 @@ html, body {
     width: 100%;
 }
 
+.padding {
+    padding-bottom: 2rem;
+}
+
 .navbar {
     padding: .8rem;
 }
@@ -50,5 +54,9 @@ hr.light-100 {
 
 }
 @media (max-width: 576 px) {
+
+.card-body {
+    padding-bottom: 1rem;
+}
 
 }
