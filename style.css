@@ -4,8 +4,16 @@ html, body {
     width: 100%;
 }
 
+.padding {
+    padding-bottom: 2rem;
+}
+
 .navbar {
     padding: .8rem;
+}
+
+.navbar-brand {
+    padding-left: 1rem;
 }
 
 .navbar-nav li {
@@ -20,10 +28,14 @@ html, body {
     padding-bottom: 1rem;
 }
 
-footer {
+footer{
     background-color: #3f3f3f;
     color: #d5d5d5;
     padding-top: 2rem;
+}
+
+footer a {
+    color: #d5d5d5;
 }
 
 hr.light {
@@ -50,5 +62,9 @@ hr.light-100 {
 
 }
 @media (max-width: 576 px) {
+
+.card-body {
+    padding-bottom: 1rem;
+}
 
 }
