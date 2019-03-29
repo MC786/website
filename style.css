@@ -44,6 +44,7 @@ html, body {
 } 
 
 .input {
+    width: 80%;
     padding: 12px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -51,6 +52,7 @@ html, body {
 }
 
 .input-text {
+    width: 80%;
     padding: 12px;
     padding-bottom: 40px;
     border-radius: 5px;
@@ -59,6 +61,7 @@ html, body {
 }
 
 input[type=submit] {
+    width: 40%;
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -71,6 +74,7 @@ footer{
     background-color: #3f3f3f;
     color: #d5d5d5;
     padding-top: 2rem;
+    margin-top: 1rem;
 }
 
 footer a {
