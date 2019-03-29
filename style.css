@@ -62,19 +62,17 @@ hr.light-100 {
 }
 
 @media (max-width: 992 px) {
-
+    .padding-bottom {
+        padding-bottom: 1rem;
+    }
 }
 @media (max-width: 768 px) {
-    .padding {
-        padding-bottom: 2rem;
+    .padding-bottom {
+        padding-bottom: 1rem;
     }
 }
 @media (max-width: 576 px) {
-    .padding {
-        padding-bottom: 2rem;
-    }
-
-    .card-body {
+    .padding-bottom {
         padding-bottom: 1rem;
     }
 }
