@@ -1,6 +1,6 @@
 # Project Title
 
-One Paragraph of project description goes here
+This project was build around the task to present our LCD-Team.
 
 ## Getting Started
 
@@ -8,80 +8,45 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+You don't need anything regarding prerequisites, beside the actual repository on your PC, to run the Website. The only module which isn't going to work is the contact-formular, since it requires PHP to work.
+A work-around would be to deploy the repository on a webserver or to host a server on localhost. Visit [ApacheFriends.org](https://www.apachefriends.org/index.html) for further information on XAMPP (local server). 
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+To install the basic website (without the contact-formular), you have to clone the repository to a folder of your choice. After that the website can be accessed by opening /index.html with a browser.
 
-Say what the step will be
+Visit [ApacheFriends.org](https://www.apachefriends.org/index.html) on how to set up a local webserver for the full website to work. The website is then reachable per browser at localhost.
 
-```
-Give the example
-```
+### Testing
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Since the website is build on HTML, CSS, Bootstrap and a bit of PHP, not much testing is required. Automated tests are unefficient, because besides links the only thing to be tested is the formular, which can be (and is) tested in person.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+The deployment on a live system (a webserver) is the same as deploying it locally/ on a local server. You have to copy the repository in the webservers main folder - the server recognizes automatically that "index.html" is the landing page.
+Besides that, main settings (e.g. domain etc.) have to be set up, to be able to reach the website over the internet.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* HTML
+* CSS
+* PHP
+* [Bootstrap](https://getbootstrap.com/) - The web framework used
+* [Adobe CC](https://www.adobe.com/de/creativecloud.html) - Design and Logo
+* [Pixabay](https://pixabay.com/photos/) - Free stock photo archive
+* [w3schools.com](https://www.w3schools.com/) - A large library for web development
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [GitHub](https://github.com/) for versioning. For the past versions, see the [project online](https://github.com/agiledev-lcd/website). 
 
-## Authors
+## Contributors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Steffen Weisshaar**
+* **Nicolas Schlicht** (readme-Author)
+* **Muzamal Cheema**
+* **Serhat Üstündag**
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
