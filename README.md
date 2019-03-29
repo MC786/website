@@ -36,6 +36,16 @@ Besides that, main settings (e.g. domain etc.) have to be set up, to be able to 
 * [Pixabay](https://pixabay.com/photos/) - Free stock photo archive
 * [w3schools.com](https://www.w3schools.com/) - A large library for web development
 
+We didn't use the github-issues to organize our project, we managed several to-do lists in communication with the team. After deciding which task to implement next we created new feature branches to work parallel.
+This is an overview of our last active branches as at 29.03.2019 21:42:
+![Branches](assets/branches.png)
+
+## Website Architecture
+
+The website has a single-page-layout. Exceptions are the two additional pages "impressum.html" and "contactform.php", which link back to the main page (contactform.php redirects automatically).
+index.html is the landing (main) page and contains the content, image references and basic structures. It embeds "style.css" which designs the raw HTML-file.
+All HTML, CSS and PHP files (and readme.md/license.md) are in the main folder and image or fonts resources are in /assets/ to grant an overview.
+
 ## Versioning
 
 We use [GitHub](https://github.com/) for versioning. For the past versions, see the [project online](https://github.com/agiledev-lcd/website). 
