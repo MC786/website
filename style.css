@@ -4,8 +4,13 @@ html, body {
     width: 100%;
 }
 
-.padding {
-    padding-bottom: 2rem;
+.no-padding{
+    padding: 0;
+}
+
+.img-responsive{
+    height: 100%;
+    width: 100%;
 }
 
 .navbar {
@@ -52,19 +57,21 @@ hr.light-100 {
     width: 60%;
 }
 
-
-
-
 @media (max-width: 992 px) {
 
 }
 @media (max-width: 768 px) {
-
+    .padding {
+        padding-bottom: 2rem;
+    }
 }
 @media (max-width: 576 px) {
+    .padding {
+        padding-bottom: 2rem;
+    }
 
-.card-body {
-    padding-bottom: 1rem;
-}
+    .card-body {
+        padding-bottom: 1rem;
+    }
 
 }
