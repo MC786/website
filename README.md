@@ -1,10 +1,10 @@
 # Project Title
 
-This project was build around the task to present our LCD-Team.
+This project was build around the task to present our LCD-Team. The working website is available at [AgileDev-koeln.de](https://agiledev-koeln.de).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -13,7 +13,7 @@ A work-around would be to deploy the repository on a webserver or to host a serv
 
 ### Installing
 
-To install the basic website (without the contact-formular), you have to clone the repository to a folder of your choice. After that the website can be accessed by opening /index.html with a browser.
+To install the basic website (without the contact-formular), you have to clone the repository to a folder of your choice. After that the website can be accessed by opening /index.html with any browser.
 
 Visit [ApacheFriends.org](https://www.apachefriends.org/index.html) on how to set up a local webserver for the full website to work. The website is then reachable per browser at localhost.
 
