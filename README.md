@@ -53,9 +53,17 @@ We use [GitHub](https://github.com/) for versioning. For the past versions, see 
 ## Contributors
 
 * **Steffen Weisshaar**
-* **Nicolas Schlicht** (readme-Author)
+  * Back-End 
+  * Front-End
+* **Nicolas Schlicht**
+  * readme
+  * Front-End
 * **Muzamal Cheema**
+  * Back-End
+  * PHP
 * **Serhat Üstündag**
+  * Concept
+  * Text
 
 ## License
 
