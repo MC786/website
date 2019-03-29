@@ -1,9 +1,13 @@
+<!doctype html>
+<head>
+</head>
+<body>
 <?php
  if(isset($_POST['submit'])) {
     $vorname = $_POST['vorname'];
     $nachname = $_POST['nachname'];
     $emailFrom = $_POST['email'];
-    $subject = $_POST['betreff']
+    $subject = $_POST['betreff'];
     $message = $_POST['text'];
 
     $mailTo = "kontakt@agileDev-koeln.de";
@@ -16,3 +20,5 @@
 
  }
 ?>
+</body>
+</html>
