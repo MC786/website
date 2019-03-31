@@ -83,9 +83,9 @@
     </div>
   </div>
   <!-- Cards for each team members-->
-  <div class="container-fluid padding-bottom">
-    <div class="row padding">
-      <div class="col-md-6 col-lg-3 padding">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-lg-3 padding-bottom">
         <div class="card">
           <img class="card-img-top" src="assets/Steffen.jpg">
           <div class="card-body">
@@ -151,7 +151,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-lg-3">
+      <div class="col-md-6 col-lg-3 padding-bottom">
         <div class="card">
           <img class="card-img-top" src="assets/Serhat.jpg">
           <div class="card-body">
@@ -228,29 +228,28 @@
   </div>
 
   <!-- Contact form -->
-  <div class="container-fluid">
+  <div class="container-fluid" id="Formular-message-send">
     <div class="row text-center">
       <div class="col-sm-10 mx-auto">
         <h4 class=display-4 id="Formular">
           Kontakt über die Website
         </h4>
-        <form action="contactform.php" target="_self" method=post>
+        <form action="contact-form.php" target="_self" method=post >
           <br>
-          <input class="input" type=text name="vorname" placeholder="Vorname">
+          <input class="input" type=name name="name" placeholder="Name" required>
           <br>
-          <input class="input" type=text name="nachname" placeholder="Nachname">
+          <input class="input" type=email name="email" placeholder="E-mail" required>
           <br>
-          <input class="input" type=text name="email" placeholder="E-mail">
+          <input class="input" type=text name="betreff" placeholder="Betreff" required>
           <br>
-          <input class="input" type=text name="betreff" placeholder="Betreff">
+          <textarea class="input-text"  type=text name="text" placeholder="Nachricht" height=20px></textarea>
           <br>
-          <input class="input-text"  type=text name="text" placeholder="Nachricht" height=20px>
-          <br>
-          <input class="input" type=submit name="submit" value="Abschicken">
+          <input class="input" type=submit name="submit" data-submit="Sende Nachricht" value="Abschicken">
         </form>
       </div>
     </div>
   </div>
+  
 
   <!--- Footer -->
   <footer>
