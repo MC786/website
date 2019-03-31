@@ -37,7 +37,7 @@
         $subject = $_POST['betreff'];
         $message = $_POST['text'];
         if(!empty($vorname) && !empty($nachname) && !empty($emailFrom) && !empty($subject) && !empty($message)) {
-          $mailTo = "kontakt@agileDev-koeln.de";
+          $mailTo = "kontakt@agiledev-koeln.de";
           $headers = "From: ".$emailFrom;
           $text = "You have received an e-mail from ".$vorname." ".$nachname.".\n\n".$message;
           mail($mailTo, $subject, $text, $headers);
